@@ -3,6 +3,8 @@
  * the ES6 features that are supported by your Node version. https://node.green/
  */
 
+const { QImg } = require('quasar');
+
 // Configuration for your app
 // https://v1.quasar.dev/quasar-cli/quasar-conf-js
 
@@ -93,8 +95,9 @@ module.exports = function (/* ctx */) {
       // directives: [],
 
       // Quasar plugins
-      plugins: [],
-      directives: ['Ripple', 'TouchPan', 'TouchSwipe']
+      plugins: ['Dialog', 'Notify'],
+      directives: ['Ripple', 'TouchPan', 'TouchSwipe'],
+      components: ['QImg']
     },
 
     // animations: 'all', // --- includes all animations

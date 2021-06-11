@@ -83,22 +83,22 @@ export default {
     return {
       newTask: '',
       tasks: [
-        // {
-        //   title: 'Estudar UX',
-        //   done: true
-        // },
-        // {
-        //   title: 'Estudar Vue.js',
-        //   done: true
-        // },
-        // {
-        //   title: 'Estudar Quasar',
-        //   done: true
-        // },
-        // {
-        //   title: 'Fazer exercícios',
-        //   done: false
-        // }
+        {
+          title: 'Estudar UX',
+          done: true
+        },
+        {
+          title: 'Estudar Vue.js',
+          done: true
+        },
+        {
+          title: 'Estudar Quasar',
+          done: true
+        },
+        {
+          title: 'Fazer exercícios',
+          done: false
+        }
       ]
     };
   },
